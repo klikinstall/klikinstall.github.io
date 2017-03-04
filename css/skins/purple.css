@@ -1,0 +1,106 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #7D35A0; }
+
+p,
+body .main_footer,
+.s_about li {
+  color: #888; }
+
+.color_element {
+  color: #7D35A0; }
+
+.color_bg {
+  background-color: #7D35A0; }
+
+.color_border {
+  border-color: #7D35A0; }
+
+.main_color_bg {
+  background-color: #222; }
+
+.bg_light {
+  background-color: #DDDCDD; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr::after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+svg path {
+  fill: #FAFAFA; }
+
+.top_mnu a:hover {
+  color: #7D35A0; }
+.top_mnu a {
+  letter-spacing: 2px; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+.s_descr {
+  letter-spacing: 5px; }
+  .s_descr::after {
+    background-color: #222; }
+
+section h3 {
+  letter-spacing: 3px;
+  color: #888; }
+
+.s_about p:nth-child(even) {
+  color: #7D35A0; }
+
+.personal_header {
+  letter-spacing: 2px; }
+
+.resume_container h3 {
+  color: #222;
+  letter-spacing: 1px; }
+.resume_container .resume_item .year {
+  background-color: #7D35A0; }
+.resume_container .resume_description {
+  letter-spacing: 1px; }
+
+.s_portfolio li {
+  color: #888;
+  letter-spacing: 2px; }
+  .s_portfolio li.active {
+    color: #fff;
+    border-bottom: 1px solid #7D35A0; }
+
+.portfolio_item .port_item_cont a {
+  border-color: #7D35A0;
+  color: #7D35A0; }
+
+.main_footer a {
+  color: #7D35A0; }
+
+.contacts_icon {
+  color: #7D35A0; }
+
+.text-danger {
+  color: #7D35A0; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #7D35A0; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #7D35A0;
+  color: #fff;
+  letter-spacing: 2px; }
+
+.form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+/*# sourceMappingURL=purple.css.map */
