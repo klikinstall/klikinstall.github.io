@@ -1,0 +1,411 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1266px) {
+	.s_mountains label {
+		margin-bottom: 13px;
+	}
+	.s_mountains input[type="submit"] {
+		float: none;
+	}
+	.s_mountains .order_now {
+		padding-bottom: 20px;
+	}
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1140px) {
+	.block_img_journal,
+	.s_places .container,
+	.s_gallery .container,
+	.s_brand .container,
+	.s_reviews .container {
+		max-width: 760px;
+	}
+	.journal_lists:nth-child(3) {
+		float: right;
+	}
+	.journal_lists:nth-child(4) {
+		float: left;
+	}
+	.right_arr:after {
+		top: 380px;
+	    right: 53px;
+		border-width: 10px;
+	    border-color: #fff transparent transparent transparent;
+	    border-style: solid;
+	}
+	.mountain_item:nth-child(1),
+	.mountain_item:nth-child(2) {
+		margin-right: 80px;
+	}
+	.mountain_item:nth-child(3) {
+		margin-right: 0;
+	}
+	.mountain_item:nth-child(4) {
+		float: left;
+		margin-left: 120px;
+	}
+	.mountain_item:nth-child(5) {
+	    float: right;
+		margin-right: 120px;
+	}
+	.column {
+		height: 424px;
+	}
+	.column:nth-child(2) {
+	    width: 170px;
+	}
+	.column:nth-child(3) {
+	    width: 235px;
+	}
+	.column:last-child {
+	    width: 295px;
+	}
+}
+
+@media only screen and (max-width : 1060px) {
+	.workflow .container {
+		background-image: none;
+	}
+	.work_steps {
+		width: 50%;
+	}
+}
+
+/* Medium Devices, Desktops 860px */
+@media only screen and (max-width : 1000px) {
+	.block_about_us p {
+		color: #000;
+	}
+	.top_line {
+		text-align: center;
+	}
+	.btn_wrap {
+		float: none;
+		margin-top: 2px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.s_mountains input[type="submit"] {
+		display: block;
+		width: 225px;
+	}
+}
+@media only screen and (max-width : 912px) {
+	.s_mountains .order_now {
+		padding: 3px 20px 20px 20px;
+	}
+	.s_mountains label {
+		display: block;
+	}
+	.s_mountains input[type="text"] {
+		display: block;
+		box-sizing: border-box;
+		width: 100%;
+		max-width: 100%;
+		height: 30px;
+		margin-top: 5px;
+		padding: 5px 10px;
+		border-radius: 5px;
+		background-color: rgba(0,0,0,.1);
+	}
+	.s_mountains label:nth-of-type(2) {
+		padding-left: 0;
+		border-left: none;
+	}
+}
+@media only screen and (max-width : 880px) {
+	.block_about_us h2 {
+		color: #fff;
+	}
+}
+/* Small Devices, Tablets 817px */
+@media only screen and (max-width : 817px) {
+	.logo_wrap {
+		display: block;
+		margin-right: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.block_about_us p {
+		color: #fff;
+		text-shadow: 1px 1px 0 #a7909f;
+	}
+	.block_img_journal {
+		max-width: 380px;
+	}
+	.left_arr:after {
+		top: -20px;
+	    left: 53px;
+		border-width: 10px;
+	    border-color: transparent transparent #fff transparent;
+	    border-style: solid;
+	}
+	.journal_lists:nth-child(3) {
+		display: block;
+	}
+	.journal_lists:nth-child(3) img {
+		display: none;
+	}
+	.journal_lists:nth-child(3) img.hidden {
+		display: block;
+	}
+	.journal_lists.hidden {
+		display: none;
+	}
+	.journal_lists:nth-child(6) img {
+		display: none;
+	}
+	.journal_lists:nth-child(6) img.hidden {
+		display: block;
+	}
+	.right_arr:after {
+		right: 53px;
+    	top: -20px;
+		border-color: transparent transparent #fff transparent;
+    	border-style: solid;
+    	border-width: 10px;
+	}
+	.s_places .container {
+		max-width: 480px;
+	}
+	.s_places .mountain_item {
+		margin-left: 0;
+		margin-right: 0;
+		float: left;
+	}
+	.s_places .mountain_item:nth-child(2n-1) {
+		float: left;
+		margin-right: 5px;
+	}
+	.s_places .mountain_item:nth-child(2n) {
+		float: right;
+	}
+	.s_places .mountain_item:last-child {
+		float: none;
+		clear: both;
+		margin: 0 auto;
+	}
+	.s_gallery .container {
+		max-width: 434px;
+	}
+	.column:nth-child(3) {
+		margin-bottom: 29px;
+		margin-right: 0;
+	}
+	.column:last-child {
+		width: 100%;
+		height: 624px;
+	}
+	.s_brand .container {
+		width: 500px;
+		background-position: left 80px, 18.3% -72px, 37.6% -253px, 58.8% -439px, 80% -615px, 101.2% -794px;
+	}
+	.s_reviews .container {
+		max-width: 100%;
+	}
+	.left_review,
+	.right_review {
+	    float: none;
+	    width: 80%;
+		min-width: 315px;
+		margin: 0 auto;
+	}
+	.left_review {
+		margin-bottom: 55px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 600px) {
+	.nav_wrap {
+		display: block;
+	}
+	.nav_wrap li {
+		float: none;
+	}
+	.nav_wrap li a {
+		text-indent: 18px;
+	}
+	.nav_wrap li a:hover:after,
+	.nav_wrap li a:hover:after {
+		display: none;
+	}
+	.nav_wrap li a:hover,
+	.nav_wrap li a:hover,
+	.nav_wrap li a:active,
+	.nav_wrap li a:active {
+		color: #33383b;
+	}
+	.head_slogan h1 {
+		font-size: 40px;
+	}
+	.head_slogan .blue_text {
+		font-size: 56px;
+	}
+	.work_steps {
+		width: 100%;
+	}
+	.workflow .container {
+		max-width: 100%;
+	}
+	.form_contacts {
+		width: 96%;
+	}
+	footer {
+		padding-bottom: 25px;
+		background-color: #3f636b;
+		background-image: none;
+	}
+	footer .rights,
+	footer .phone,
+	footer .social {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	footer .rights,
+	footer .phone {
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.s_brand .container {
+		width: 80%;
+		background-image: url(../img/brand_sprite.png), url(../img/brand_sprite.png), url(../img/brand_sprite.png), url(../img/brand_sprite.png), url(../img/brand_sprite.png), url(../img/brand_sprite.png);
+	    background-repeat: no-repeat;
+	    background-position: left 49px, center -105px, right -285px, left -408px, center -583px, right -763px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.head_slogan {
+		padding-left: 6%;
+		padding-right: 6%;
+	}
+	.s_mountains .order_now {
+		width: 100%;
+	}
+	.s_gallery .container {
+		max-width: 320px;
+	}
+	.s_gallery .column {
+		width: 100%;
+		margin-bottom: 29px;
+	}
+	.column:nth-child(2) {
+	    height: 789px;
+	}
+	.column:nth-child(3) {
+	    height: 583px;
+	}
+	.column:last-child {
+	    height: 468px;
+		margin-bottom: 0;
+	}
+}
+
+@media only screen and (max-width : 411px) {
+	.form_contacts p {
+		margin-bottom: 22px;
+	}
+}
+
+@media only screen and (max-width : 405px) {
+	.s_places .container {
+		max-width: 320px;
+	}
+	.mountain_item {
+		width: 150px;
+		height: 332px;
+	}
+	.mountain_item h3 {
+		font-size: 23px;
+	}
+	.mountain_item .price {
+		bottom: 12px;
+	}
+	.mountain_item ul {
+		margin-bottom: 90px;
+	}
+	.mountain_item .price {
+		width: 115px;
+	}
+	.mountain_item .price span {
+		font-size: 13px;
+	}
+	.mountain_item .price b {
+		font-size: 21px;
+	}
+}
+
+@media only screen and (max-width : 380px) {
+	.head_slogan button {
+		padding: 21px 26%;
+	}
+	.block_img_journal {
+		max-width: 320px;
+	}
+	.journal_lists {
+		width: 320px;
+		height: 320px;
+	}
+	.block_img_journal .center {
+		width: 320px;
+		height: 320px;
+	}
+	.block_img_journal h3 {
+		margin-top: 25px;
+	}
+	.block_img_journal i {
+		margin-top: 17px;
+	}
+	.block_img_journal img {
+		width: 320px;
+		height: 320px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

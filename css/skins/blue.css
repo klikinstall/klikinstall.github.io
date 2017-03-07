@@ -54,9 +54,6 @@ section h3 {
   letter-spacing: 3px;
   color: #888; }
 
-.s_about p:nth-child(even) {
-  color: #2EA2CC; }
-
 .personal_header {
   letter-spacing: 2px; }
 
