@@ -1,1 +1,4 @@
 [0307/184240.146:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
+[0309/001022.831:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
+[0312/161048.649:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)
+[0312/164525.158:ERROR:exception_handler_server.cc(524)] ConnectNamedPipe: Идет закрытие канала. (0xE8)

@@ -92,14 +92,6 @@ section
 	position: absolute
 .fa-spinner
 	font-size: 45px
-	//Векторный логотип
-.logo_container
-	float: left
-svg
-	height: 60px
-	width: 60px
-	z-index: 100
-	position: relative
 //Анимированное меню
 .toggle_mnu
 	width: 60px
@@ -353,6 +345,8 @@ body
 	padding: 0
 	img
 		width: 100%
+.portfolio_item:nth-of-type(4)
+	background: url('img/portfolio-images/1.jpg')
 .port_item_cont
 	position: absolute
 	top: 0
@@ -371,6 +365,11 @@ body
 		color: #fff
 		margin-bottom: 0
 		background-image: none
+		a
+			display: inline
+			padding: 0
+			color: #e4b219
+			border: none
 	a
 		background-color: transparent
 		border: 1px solid #fff
@@ -391,6 +390,8 @@ body
 		font-weight: 400
 		margin-top: 20px
 		padding-top: 25px
+		a
+			color: #e4b219
 	p
 		margin-top: 0
 	img
