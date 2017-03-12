@@ -51,10 +51,10 @@ $(document).ready(function() {
 		};
 	});
 	//Присвоение айди плиткам в блоке "Портфолио"
-	$(".portfolio_item").each(function(i){
-		$(this).find("a").attr("href","#work_"+i);
-		$(this).find(".port_descr").attr("id","work_"+i);
-	});
+	//$(".portfolio_item").each(function(i){
+	//	$(this).find("a").attr("href","#work_"+i);
+	//	$(this).find(".port_descr").attr("id","work_"+i);
+	//});
 	//Валидация форм
 	$("input,select,textarea").jqBootstrapValidation();
 	//Плавный скролл по странице
