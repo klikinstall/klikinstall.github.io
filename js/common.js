@@ -1,4 +1,4 @@
-$(document).ready(function() {
+﻿$(document).ready(function() {
 
 	//Анимация плиток в блоке "Резюме"
 	$('#portfolio_grid').mixItUp();
@@ -50,11 +50,6 @@ $(document).ready(function() {
 			$(".top_mnu li a").addClass("fadeInUp animated");
 		};
 	});
-	//Присвоение айди плиткам в блоке "Портфолио"
-	//$(".portfolio_item").each(function(i){
-	//	$(this).find("a").attr("href","#work_"+i);
-	//	$(this).find(".port_descr").attr("id","work_"+i);
-	//});
 	//Валидация форм
 	$("input,select,textarea").jqBootstrapValidation();
 	//Плавный скролл по странице
