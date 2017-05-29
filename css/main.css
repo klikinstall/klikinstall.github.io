@@ -161,11 +161,9 @@ body {
 .sandwich.active .sw-topper {
   top: 10px;
   transform: rotate(-135deg); }
-
 .sandwich.active .sw-bottom {
   top: 7px;
   transform: rotate(135deg); }
-
 .sandwich.active .sw-footer {
   opacity: 0;
   top: 0;
@@ -266,7 +264,7 @@ body {
       animation-delay: 0.4s; }
 
 .h_opacity {
-  opacity: .3;
+  opacity: 0.3;
   -webkit-transition: all 0.25s ease;
   -moz-transition: all 0.25s ease;
   transition: all 0.25s ease; }
@@ -291,15 +289,12 @@ body {
 
 .s_about p {
   margin-bottom: 25px; }
-
 .s_about ul, .s_about li {
   margin: 0;
   padding: 0;
   list-style-type: none; }
-
 .s_about li {
   margin-bottom: 10px; }
-
 .s_about .social_wrap {
   margin-top: 25px; }
 
@@ -315,19 +310,16 @@ body {
     text-align: right; }
   .resume_container .left .resume_description strong {
     margin-left: 10px; }
-
 .resume_container .right {
   text-align: left; }
   .resume_container .right h3 {
     text-align: left; }
   .resume_container .right .resume_description strong {
     margin-left: 10px; }
-
 .resume_container h3 {
   margin-top: 30px;
   font-size: 16px;
   font-weight: 600; }
-
 .resume_container .resume_item {
   margin-bottom: 35px; }
   .resume_container .resume_item:last-child {
@@ -343,7 +335,6 @@ body {
     color: #fff;
     font-weight: 600;
     font-style: italic; }
-
 .resume_container .resume_description {
   font-style: italic; }
   .resume_container .resume_description strong {
@@ -361,7 +352,6 @@ body {
   padding: 0;
   margin: 0;
   text-align: center; }
-
 .s_portfolio li {
   display: inline-block;
   margin: 0 10px;
@@ -369,7 +359,6 @@ body {
   font-size: 12px;
   cursor: pointer;
   line-height: 16px; }
-
 .s_portfolio ul {
   margin-bottom: 50px; }
 
@@ -381,8 +370,8 @@ body {
   .portfolio_item img {
     width: 100%; }
 
-.portfolio_item:nth-of-type(4) {
-  background: url("img/portfolio-images/1.jpg"); }
+.portfolio_item:nth-of-type(5) .port_item_cont:hover {
+  padding-top: 20%; }
 
 .port_item_cont {
   position: absolute;
@@ -394,7 +383,7 @@ body {
   text-align: center;
   padding-top: 15%;
   opacity: 0;
-  transition: all .5s; }
+  transition: all 0.5s; }
   .port_item_cont:hover {
     opacity: 1;
     padding-top: 20%; }
@@ -474,3 +463,5 @@ body {
     text-indent: 12px;
     font-size: 12px;
     background-color: transparent; }
+
+/*# sourceMappingURL=main.css.map */

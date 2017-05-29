@@ -1,0 +1,69 @@
+body {
+	min-width: 320px;
+	position: relative;
+	font-family: "OpenSansRegular", sans-serif;
+	overflow-x: hidden;
+}
+.hidden {
+	display: none;
+}
+.main_head > .navbar {
+	margin-bottom: 0;
+}
+.navbar-brand {
+	position: relative;
+	top: 5px;
+	padding: 0;
+	z-index: 10;
+}
+.main_head .lead {
+	color: #fff;
+	font-family: "OpenSansBold", sans-serif;
+}
+.phone_top {
+	position: relative;
+	top: 12px;
+	text-align: center;
+}
+.carousel-inner>.item>img {
+	position: relative;
+}
+.carousel-inner .overlay {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(36,36,36,.7);
+	z-index: 1;
+}
+.main_head ul.navbar-nav {
+	position: relative;
+	z-index: 11;
+}
+.slide_img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel-control {
+	z-index: 10;
+}
+.carousel-inner .h1 {
+	margin-top: 7px;
+	font-family: "OpenSansBold", sans-serif;
+	line-height: 1.5;
+}
+/*-------------------------------Стили для хедера внутренней страницы-------------*/
+.inner_page .navbar-brand {
+	overflow: hidden;
+}
+.inner_page .navbar-brand img {
+	width: 95px;
+	margin-right: 20px;
+}
