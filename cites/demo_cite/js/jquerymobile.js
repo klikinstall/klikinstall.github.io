@@ -2752,7 +2752,7 @@
     }(a),
     function(a, b) {
         a.widget("mobile.textinput", {
-            initSelector: "input[type='text'],input[type='search'],:jqmData(type='search'),input[type='number'],:jqmData(type='number'),input[type='password'],input[type='email'],input[type='url'],input[type='tel'],textarea,input[type='time'],input[type='date'],input[type='month'],input[type='week'],input[type='datetime'],input[type='datetime-local'],input[type='color'],input:not([type]),input[type='file']",
+            initSelector: "input[type='text']:not(.jsmobiledisabled),input[type='submit']:not(.jsmobiledisabled),input[type='search']:not(.jsmobiledisabled),:jqmData(type='search'),input[type='number']:not(.jsmobiledisabled),:jqmData(type='number'),input[type='password']:not(.jsmobiledisabled),input[type='email']:not(.jsmobiledisabled),input[type='url']:not(.jsmobiledisabled),input[type='tel']:not(.jsmobiledisabled),textarea:not(.jsmobiledisabled),input[type='time'],input[type='date'],input[type='month'],input[type='week'],input[type='datetime'],input[type='datetime-local'],input[type='color'],input:not([type]),input[type='file']",
             options: {
                 theme: null,
                 corners: !0,
