@@ -1,0 +1,788 @@
+<!-- HTML Document -->
+<!DOCTYPE html>
+<html>
+<head>
+<title>AppsWEB | Главная страница</title>
+<!-- For-Mobile-Apps -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="appsweb, apps-web, создание сайтов, разработка сайтов, создание мобильных приложений, разработка мобильных приложений, лицензии 1С битрикс, создание сайтов в Комсомольске-на-Амуре, разработка сайтов в Комсомольске-на-Амуре, создание мобильных приложений в Комсомольске-на-Амуре, разработка мобильных приложений в Комсомольске-на-Амуре" />
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //For-Mobile-Apps -->
+<!-- Custom-Theme-Files -->
+	<!-- Bootstrap-Core-CSS --> <link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Owl-Carousel-CSS --> <link href="css/owl.carousel.min.css" rel="stylesheet">
+	<!-- Owl-Carousel-CSS --> <link href="css/owl.theme.default.min.css" rel="stylesheet">
+	<!-- Swipe-Box-CSS --> <link rel="stylesheet" href="css/swipebox.css">
+	<!-- Style.CSS --> <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom-Theme-Files -->
+<script>
+	$(function() {
+		$(".meter > span").each(function() {
+			$(this)
+			.data("origWidth", $(this).width())
+			.width(0)
+			.animate({
+				width: $(this).data("origWidth")
+			}, 1200);
+		});
+	});
+</script>
+<!-- Web-Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<!-- //Web-Fonts -->
+</head>
+
+<body>
+<!-- Header -->
+<div class="banner">
+	 <div class="container">
+		 <div class="header">
+                <div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+                    <a href="index.html"><img src="images/logo_aw_new.png" alt="" /></a>
+                </div>
+                <div class="top-menu">
+                    <span class="menu"></span>
+                    <ul>
+                        <li><a class="scroll" href="#about">О нас</a></li>
+                        <li><a class="scroll" href="#features">Услуги</a></li>
+                        <li><a class="scroll" href="#portfolio">Портфолио</a></li>
+                        <li><a class="scroll" href="#reviews">Отзывы</a></li>
+                        <li><a class="scroll" href="#contact">Контакты</a></li>
+                        <div class="contact-info">
+                            <div class="tels">Телефон: +7 (924) 115-8813 <br>Email: apps-web@yandex.ru</div>
+                            <div class="request-call">
+                                <a href="#callback" class="request-call-btn" data-toggle="modal" data-target="#callback">
+                                    <i class="glyphicon glyphicon-earphone"></i>
+                                    <span>Заказать <br> звонок</span>
+                                </a>
+                            </div>
+                            <!-- /request-call-->
+                        </div>
+                    </ul>
+                </div>
+                <div class="clearfix"></div> 
+		 </div>
+		 <!-- <nav class="navbar navbar-default navbar-fixed-top">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top_menu" aria-expanded="false">
+                                    <span class="sr-only">Открыть навигацию</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <a class="navbar-brand" href="#"><img src="img/logo888.png" alt="888Service"></a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="top_menu">
+                                <ul class="nav navbar-nav">
+                                    <li>
+                                        <a href="#services">Услуги <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li>
+                                        <a href="#works">Наши работы</a>
+                                    </li>
+                                    <li>
+                                        <a href="#technology">Технология</a>
+                                    </li>
+                                    <li>
+                                        <a href="#contacts">Контакты</a>
+                                    </li>
+                                </ul>
+                                <p class="navbar-text navbar-right"> 
+                                    <i class="glyphicon glyphicon-earphone"></i>
+                                    +7 (123) 456-78-90
+                                </p>
+                            </div>
+                        </nav> -->
+		 <div class="banner-text wow fadeInUp" data-wow-delay="0.5s">
+			 <h1>ЛУЧШЕЕ <span>IT-РЕШЕНИЕ</span> ДЛЯ ВАШЕГО <span>БИЗНЕСА</span></h1>
+			 <h2>ДИЗАЙН И РАЗРАБОТКА ИНФОРМАЦИОННЫХ ПРОЕКТОВ НА ЗАКАЗ</h2>
+		 </div>
+		 <div class="banner-form">
+			 <form method='post' id="banner_form">
+			     <div class="row">
+			         <div class="col-md-3 col-xs-6 banner_input">
+			             <input class="wow fadeInRight first_text_input" data-wow-delay="0.5s" type="text" name="name" placeholder="Имя" required/>
+			         </div>
+			         <div class="col-md-3 col-xs-6 banner_input">
+			             <input class="wow fadeInRight" data-wow-delay="0.5s" type="text" name="email" placeholder="E-mail" required/>
+			         </div>
+			         <div class="col-md-3 col-xs-6 banner_input">
+			             <input class="wow fadeInLeft last_text_input" data-wow-delay="0.5s" type="text" name="phone" placeholder="Телефон" required/>
+			         </div>
+			         <div class="col-md-3 col-xs-6 banner_input">
+			             <input class="wow fadeInLeft" data-wow-delay="0.5s" type="submit" value="Оценить проект"/>
+			         </div>
+			     </div>
+				 <input class="wow fadeInLeft" data-wow-delay="0.5s" type="text" name="bezspama" style="display:none" value="" />
+			 </form> 
+			 
+			 <div class="register">
+			 <span></span>
+			 <h3 class="wow bounceInRight" data-wow-delay="0.5s">Воспользуйтесь формой <br/>обратной связи</h3>		 
+		     </div>	
+			 <div class="clearfix"></div>
+		 </div>		 
+	 </div>
+</div>
+<!-- //Header -->
+	
+	<!-- Content -->
+	<div class="content">
+
+		<!-- Features -->
+		<div class="features" id="features">
+			<div class="container">
+
+				<h1>Услуги</h1>
+				<div class="feature-grid">
+				    <div class="row">
+                       <div class="col-md-4 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="images/f1.png" alt="Cubicle">
+                                </div>
+                                <div class="features-info">
+                                    <h4>Дизайн</h4>
+                                    <p>Дизайн баннеров, визиток, сайтов</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="col-md-4 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                <img src="images/f4.png" alt="Cubicle">
+                                </div> 
+                                <div class="features-info">
+                                <h4>Приложения</h4>
+                                <p>Создание мобильных приложений</p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="col-md-4 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="images/f2_new.png" alt="Cubicle">
+                                </div>
+                                <div class="features-info">
+                                    <h4>Группы ВК</h4>
+                                    <p>Создание групп ВК и других соцсетей</p>
+                                    <!--<p class="vk_par">Дизайн групп Вконтакте</p>-->
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+				    </div>	
+                <div class="row">
+                    <div class="col-md-4 feature1 slideanim">
+						<div class="row features-item sans-shadow text-center">
+							<div class="features-icon">
+								<img src="images/f3.png" alt="Cubicle">
+							</div>
+							<div class="features-info">
+								<h4>Продвижение</h4>
+								<p>Контекстная реклама, SEO, SMM</p>
+							</div>
+							<div class="clearfix"></div>
+						</div><!-- //Row -->
+					</div>
+					<div class="col-md-4 feature1 slideanim">
+						<div class="row features-item sans-shadow text-center">
+							<div class="features-icon">
+								<img src="images/f5.png" alt="Cubicle">
+							</div>
+							<div class="features-info">
+							<h4>Интеграция 1С</h4>
+							<p>Лицензии 1С-Битрикс, сервис Битрикс 24</p>
+							</div>
+							<div class="clearfix"></div>
+						</div><!-- //Row -->
+					</div>
+					<div class="col-md-4 feature1 slideanim">
+						<div class="row features-item sans-shadow text-center">
+							<div class="features-icon">
+								<img src="images/f6.png" alt="Cubicle">
+							</div>
+							<div class="features-info">
+								<h4>Обучение</h4>
+								<p>Курсы web-дизайна, программирования</p>
+							</div>
+							<div class="clearfix"></div>
+						</div><!-- //Row -->
+					</div>
+                </div>
+					<div class="clearfix"></div>
+				</div>
+
+			</div>
+		</div>
+		<!-- //Features -->
+
+		<!-- About -->
+		<div class="about" id="about">
+			<div class="container">
+
+				<h3 class="slideanim">О нас</h3>
+
+				<p class="slideanim">Мы занимаемся созданием web-сайтов и мобильных приложений для малого и среднего бизнеса с 2011 года и принимаем заказы по всей России. Процесс разработки наших проектов на 100% прозрачен и на любом этапе мы можем показать результаты своей работы. Нам доставляет огромное удовольствие сотрудничать с нашими клиентами, выполнять их задачи быстро и качественно. Использование современных мобильных и Интернет-технологий позволяет нам улучшать качество своей деятельности. 
+				Мы всегда рады делать ваш бизнес эффективнее и прибыльнее!</p>
+								
+				<!-- Screen-Gallery-Carousel -->
+				<!--  
+				<div id="owl-demo" class="owl-carousel text-center slideanim">
+					<div class="item">
+						<img class="lazyOwl" src="images/company1.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company2.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company3.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company4.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company5.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company6.gif" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company7.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company8.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company9.png" alt="Cubicle">
+					</div>
+					<div class="item">
+						<img class="lazyOwl" src="images/company10.png" alt="Cubicle">
+					</div>
+				</div>
+				-->
+				<!-- //Screen-Gallery-Carousel -->
+				
+			</div>
+		</div>
+		<!-- //About -->
+
+		<!-- Portfolio -->
+		<div class="portfolio" id="portfolio">
+			<div class="container">
+				<h1>Портфолио</h1>
+				<div id="tabs" class="tabs tabs-style-bar slideanim">
+					<nav>
+						<ul>
+							<li><a href="#section-bar-1" class="icon icon-box"><span>Сайты</span></a></li>
+							<li><a href="#section-bar-2" class="icon icon-display"><span>Приложения</span></a></li>
+							<li><a href="#section-bar-3" class="icon icon-upload"><span>Группы ВК</span></a></li>
+							<!-- <li><a href="#section-bar-4" class="icon icon-tools"><span>Мобильные приложения</span></a></li>-->
+						</ul>
+					</nav>
+				</div>
+                <div id="owlPortfolio" class="owl-carousel owl-theme">
+                           <div class="item gallery-grids" data-hash="section-bar-1">
+                               <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g11.png" class="swipebox">
+                                            <img src="images/g11.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g12.png" class="swipebox">
+                                            <img src="images/g12.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g13.png" class="swipebox">
+                                            <img src="images/g13.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="item gallery-grids" data-hash="section-bar-2">
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g21.png" class="swipebox">
+                                            <img src="images/g21.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g22.png" class="swipebox">
+                                            <img src="images/g22.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g23.png" class="swipebox">
+                                            <img src="images/g23.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="item gallery-grids" data-hash="section-bar-3">
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g31.png" class="swipebox">
+                                            <img src="images/g31.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g32.png" class="swipebox">
+                                            <img src="images/g32.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <div class="gallery-top clearfix">
+                                    <figure class="effect-bubba">
+                                        <a href="images/g33.png" class="swipebox">
+                                            <img src="images/g33.png" alt="" class="img-responsive" />
+                                            <figcaption>
+                                                <h4>Место для вашего сайта</h4>
+                                            </figcaption>
+                                        </a>
+                                    </figure>
+                                </div>
+                            </div>    
+                </div>
+			</div><!-- Container -->
+		</div> <!-- div#portfolio -->
+		<!-- //Portfolio -->
+		 <!-- Products Section -->
+            <section id="products" class="products content-section">
+                <div class="container">
+                    <h2 class="section-header">Зачем нужны сайты, приложения, группы?</h2>
+                    <p class="section-text">Наша миссия – автоматизация бизнес-процессов, создание имиджа компании, увеличение прибыли бизнеса за счет популярности продукта в интернете.</p>
+				    <!-- /container-->
+                    <div class="container-mobile-full clearfix">
+                        <div class="col-item-5 why clearfix">
+                            <div class="why--icon">
+                                <div class="icon Icon_1"></div>
+                            </div>
+                            <div class="why-header">
+                                <span>Повышение <br>лояльности <br>клиентов</span>
+                                <span>Повышение лояльности клиентов</span>
+                            </div>
+                        </div>
+                        <!-- /col-->
+                        <div class="col-item-5 why clearfix">
+                            <div class="why--icon">
+                                <div class="icon Icon_2"></div>
+                            </div>
+                            <div class="why-header">
+                                <span>Рост эффективности <br>труда работников</span>
+                                <span>Рост эффективности труда работников</span>
+                            </div>
+                        </div>
+                        <!-- /col-->
+                        <div class="col-item-5 why clearfix">
+                            <div class="why--icon">
+                                <div class="icon Icon_3"></div>
+                            </div>
+                            <div class="why-header">
+                                <span>Привлечение <br>новых клиентов</span>
+                                <span>Привлечение новых клиентов</span>
+                            </div>
+                        </div>
+                        <!-- /col-->
+                        <div class="col-item-5 why clearfix">
+                            <div class="why--icon">
+                                <div class="icon Icon_4"></div>
+                            </div>
+                            <div class="why-header">
+                                <span>Автоматизация <br>бизнес-процессов</span>
+                                <span>Автоматизация бизнес-процессов</span>
+                            </div>
+                        </div>
+                        <!-- /col-->
+                        <div class="col-item-5 why clearfix">
+                            <div class="why--icon">
+                                <div class="icon Icon_5"></div>
+                            </div>
+                            <div class="why-header">
+                                <span>Ускорение принятия <br>управленческих <br>решений</span>
+                                <span>Ускорение принятия управленческих решений</span>
+                            </div>
+                        </div>
+                        <!-- /col-->
+                    </div>
+				    <!-- /container-->
+
+                
+                   <!--  /.row   <div class="row">
+                        <div class="col-md-4">
+                            <img src="images/iphone.png" class="iphone">
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="products-container"> -->
+                    
+                          <!--//Another version of content      <div class="col-md-12">
+                                    <h3>ДЛЯ ЧЕГО НЕОБХОДИМЫ САЙТЫ И МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ ДЛЯ СТАРТАПОВ И БИЗНЕСА?</h3>
+                                    <h3 class="caption white">Основные преимущества, которые вы получаете перед своими конкурентами, имея в наличии сайт и мобильное приложение:</h3>
+                                </div>
+
+                                <div class="col-md-6 product-item wow fadeIn" data-wow-offset="10">
+                                    <div class="media-left">
+                                        <span class="icon"><i class="fa fa-arrows-alt fa-3x"></i></span>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Продажи и реклама</h3>
+                                        <p>Каталог товаров или описание предлагаемых услуг является эффективной поддержкой рынков сбыта в розничной сети.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 product-item wow fadeIn" data-wow-offset="10">
+                                    <div class="media-left">
+                                        <span class="icon"><i class="fa fa-eye fa-3x"></i></span>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Имидж компании</h3>
+                                        <p>Наличие сайта и мобильного приложения положительно влияет на имидж компании, т.е. является показателем ее открытости и стабильности.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 product-item wow fadeIn" data-wow-offset="10">
+                                    <div class="media-left">
+                                        <span class="icon"><i class="fa fa-arrows-v fa-3x"></i></span>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Партнеры и клиенты</h3>
+                                        <p>Интерактивность позволяет наладить связи, удержать существующих клиентов и увеличить количество потенциальных клиентов.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 product-item wow fadeIn" data-wow-offset="10">
+                                    <div class="media-left">
+                                        <span class="icon"><i class="fa fa-video-camera fa-3x"></i></span>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Информация и статистика</h3>
+                                        <p>Сбор статистики посещений на сайте и проведение мониторинга являются важной информацией для любого бизнеса.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 product-item wow fadeIn" data-wow-offset="10">
+                                    <div class="media-left">
+                                        <span class="icon"><i class="fa fa-toggle-on fa-3x"></i></span>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Экономия ресурсов</h3>
+                                        <p>Использование сайта позволяет существенно снизить затраты на PR за счет перенесения акцента с традиционных средств.</p>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6 product-item wow fadeIn" data-wow-offset="10">
+                                    <div class="media-left">
+                                        <span class="icon"><i class="fa fa-envelope-o fa-3x"></i></span>
+                                    </div>
+                                    <div class="media-body">
+                                        <h3 class="media-heading">Вакансии он-лайн</h3>
+                                        <p>На сайте можно размещать необходимую информацию о свободных вакансиях и получать информацию о специалистах.</p>
+                                    </div>
+                                </div> -->
+
+                            <!--  </div>  /.products-container -->
+                        <!--  </div> /.col-md-8-->
+
+                   <!-- </div> /.row -->
+                </div> <!-- /.container -->
+            </section> <!-- /.products -->
+
+	<!-- Reviews -->		
+		<!--Reviews-starts-->
+<div class="reviews" id="reviews">
+	<div class="container">
+	    <h2>Отзывы</h2>
+	    <div class="row">
+	        <div class="col-md-12">
+                <div id="reviews_carousel" class="owl-carousel">
+                    <div class="item">
+                        <div class="item_person">
+                            <div class="person_img">
+                                <img src="images/men-review.png" alt="Arthur Budovskiy">
+                            </div>
+                            <b class="person_name">Дмитрий Тушинский</b>
+                            <p>Агентство &#171;BrandApp&#187; <a href="http://brand-app.by/">http://brand-app.by/</a></p>
+                        </div>
+                        <div class="item_review">
+                            <b>Отзыв партнера из Беларуси.</b>
+                            <p>Прежде чем заняться этим бизнесом, мы изучили информацию о мобильных приложениях и перспективах развития этой отрасли. По нашей статистике, заинтересованность была у 60–70% опрошенных нами клиентов.</p>
+                            <p>Делать 2–3 приложения в месяц — это реально! Мы уже опубликовали 11 приложений. Самое приятное, что в этом бизнесе есть возможность получать прибыль не только от продажи приложений, но и с абонентской платы, а также с последующих продаж клиентам дополнительных услуг. Например, многие клиенты, после того как получат готовое приложение, сами готовы нам платить за его развитие.</p>
+                            <p>Абонентская плата — это очень важно для бизнеса, особенно в условиях кризиса. Помимо нее, у нас есть возможность оказывать нашим клиентам дополнительные услуги за отдельную плату, например, за доработку или внедрение функций, работы по продвижению и тому подобное.</p>                          
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item_person">
+                            <div class="person_img">
+                                <img src="images/men-review.png" alt="Arthur Budovskiy">
+                            </div>
+                            <b class="person_name">Дмитрий Тушинский</b>
+                            <p>Агентство &#171;BrandApp&#187; <a href="http://brand-app.by/">http://brand-app.by/</a></p>
+                        </div>
+                        <div class="item_review">
+                            <b>Отзыв партнера из Беларуси.</b>
+                            <p>Прежде чем заняться этим бизнесом, мы изучили информацию о мобильных приложениях и перспективах развития этой отрасли. По нашей статистике, заинтересованность была у 60–70% опрошенных нами клиентов.</p>
+                            <p>Делать 2–3 приложения в месяц — это реально! Мы уже опубликовали 11 приложений. Самое приятное, что в этом бизнесе есть возможность получать прибыль не только от продажи приложений, но и с абонентской платы, а также с последующих продаж клиентам дополнительных услуг. Например, многие клиенты, после того как получат готовое приложение, сами готовы нам платить за его развитие.</p>
+                            <p>Абонентская плата — это очень важно для бизнеса, особенно в условиях кризиса. Помимо нее, у нас есть возможность оказывать нашим клиентам дополнительные услуги за отдельную плату, например, за доработку или внедрение функций, работы по продвижению и тому подобное.</p>                          
+                        </div>
+                    </div>
+                    <div class="item"> 
+                        <div class="item_person">
+                            <div class="person_img">
+                                <img src="images/men-review.png" alt="Arthur Budovskiy">
+                            </div>
+                            <b class="person_name">Дмитрий Тушинский</b>
+                            <p>Агентство &#171;BrandApp&#187; <a href="http://brand-app.by/">http://brand-app.by/</a></p>
+                        </div>
+                        <div class="item_review">
+                            <b>Отзыв партнера из Беларуси.</b>
+                            <p>Прежде чем заняться этим бизнесом, мы изучили информацию о мобильных приложениях и перспективах развития этой отрасли. По нашей статистике, заинтересованность была у 60–70% опрошенных нами клиентов.</p>
+                            <p>Делать 2–3 приложения в месяц — это реально! Мы уже опубликовали 11 приложений. Самое приятное, что в этом бизнесе есть возможность получать прибыль не только от продажи приложений, но и с абонентской платы, а также с последующих продаж клиентам дополнительных услуг. Например, многие клиенты, после того как получат готовое приложение, сами готовы нам платить за его развитие.</p>
+                            <p>Абонентская плата — это очень важно для бизнеса, особенно в условиях кризиса. Помимо нее, у нас есть возможность оказывать нашим клиентам дополнительные услуги за отдельную плату, например, за доработку или внедрение функций, работы по продвижению и тому подобное.</p>                          
+                        </div>
+                    </div>
+                </div>
+	        </div>
+	    </div>
+	</div>
+</div>
+	<!--Reviews-end-->	
+<!-- //Reviews -->
+
+		<!-- Contact -->
+		<div class="contact">
+			<div class="container">
+
+				<h3>Стоимость проекта</h3>
+				<p>Для оформления заявки заполните форму ниже и получите доступ к информации о заказе на почту.</p> 
+				
+				<form class="contact_form slideanim" id='contact_form' method="post">
+
+					<div class="message">
+						<div class="col-md-6 col-sm-6 grid_6 c1">
+							<input type="text" name="name" class="text" value="ФИО" placeholder="ФИО" required onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+							<input type="text" name="email" class="text" value="Адрес e-mail" placeholder="Адрес e-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+							<input type="text" name="phone" class="text" value="Телефон" placeholder="Телефон" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
+						</div>
+
+						<div class="col-md-6 col-sm-6 grid_6 c1">
+							<textarea name="message" placeholder="Сообщение" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Сообщение</textarea>
+						</div>
+						
+						<div class="col-md-6 col-sm-6 grid_6 c1">
+							<input name="bezspama" type="text" style="display:none" value="" />
+						</div>
+						
+						<div class="clearfix"></div>
+					</div>
+
+					<input type="submit" class="more_btn" value="Отправить">
+				</form>
+
+			</div>
+		</div>
+		<!-- //Contact -->
+		
+		<!-- Map-iFrame -->
+		<div id="contact"></div>
+		<div class="map slideanim" id="map-canvas">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2640.442046541669!2d135.0379906152624!3d48.5630817792596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5efabf8717363583%3A0x664e4e119df621e!2z0YPQuy4g0KDRg9C00L3QtdCy0LAsIDM1LCDQpdCw0LHQsNGA0L7QstGB0LosINCl0LDQsdCw0YDQvtCy0YHQutC40Lkg0LrRgNCw0LksIDY4MDAzMw!5e0!3m2!1sru!2sru!4v1460520887232" width="100%" height="390" frameborder="0" style="border:0" allowfullscreen>
+			</iframe>
+		</div>
+		<!-- //Map-iFrame -->
+		
+	</div>
+<!-- //Content -->
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-info slideanim">
+                    <div class="col-md col-sm footer_logo">
+                        <div class="links_img_wrap">
+                            <a href="index.html">
+                                <img src="images/logo_aw_new.png" alt="AppsWEB"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md col-sm links clearfix">
+                        <div class="links_menu">
+                            <h4>МЕНЮ</h4>
+                            <ul>
+                                <li><a href="#about">О нас</a></li>
+                                <li><a href="#features">Услуги</a></li>
+                                <li><a href="#portfolio">Портфолио</a></li>
+                                <li><a href="#prise">Тарифы</a></li>
+                                <li><a href="#contact">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+				    <div class="col-md col-sm services">
+					<h4>УСЛУГИ</h4>
+                        <ul>
+                            <li>Разработка проектов</li>
+                            <li>Сопровождение проектов</li>
+                            <li>Продвижение проектов</li>
+                            <li>Интеграция с 1С</li>
+                            <li>Обучение web-дизайну</li>
+                        </ul>
+				    </div>
+				    <div class="col-md col-sm address">
+                        <h4>КОНТАКТЫ</h4>
+                        <address>
+                            <ul>
+                                <li>ул. Руднева, 35</li>
+                                <li>г.Хабаровск</li>
+                                <li>Россия</li>
+                                <li>Телефон: +7 (924) 115-8813</li>
+                            </ul>
+                            <p>Email: <a class="mail" href="mailto:apps-web@yandex.ru">apps-web@yandex.ru</a></p>
+                        </address>
+				    </div>
+				    <div class="col-md col-sm">
+                        <h4>МЫ В СОЦСЕТЯХ</h4>
+                        <p>Вступайте в наши группы в социальных сетях, чтобы оставаться в курсе новостей</p>
+                            <ul class="social-icons slideanim">
+                                <li>
+                                    <a href="https://vk.com/appsweb" target='_blank'><img src="images/vk.png" class="vk" alt="VK"></a>
+                                </li>
+                                <li>
+                                    <a href="https://ok.ru" target='_blank'><img src="images/ok.png" class="vk" alt="OK"></a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com" target='_blank'><img src="images/instagram.png" class="instagram" alt="instagram"></a>
+                                 </li>
+                                <li>
+                                    <a href="http://www.youtube.com" target='_blank'><img src="images/youtube.png" class="vk" alt="youtube"></a>
+                                </li>
+                            </ul>
+                        <div class="dispatch">
+                            <a href="#">Подписаться на рассылку</a>
+                        </div>
+				    </div>
+				    <div class="clearfix"></div>
+			</div>
+			<div class="copyright slideanim">
+				<p>&copy; 2016. Все права защищены | <a href="http://apps-web.ru/">AppsWEB</a></p>
+			</div>
+
+		</div> 
+	</div>
+	<!-- //Footer -->
+	<!-- //Modal window callback -->
+	<div id="callback" class="modal fade">
+        <div class="modal-dialog">
+           <div class="modal-content">
+               <a href="#" title="Закрыть" class="close" data-dismiss="modal"></a>
+               <h3>Оставьте свой номер телефона, и мы Вам обязательно перезвоним!</h3>
+               <form id="callback_form" method='POST'>
+                   <input type="text" name="name" placeholder="Имя">
+                   <input type="tel" name="phone" placeholder="Телефон">
+                   <input type="email" name="email" placeholder="E-mail">
+                   <input type="submit" value="отправить">
+               </form>
+           </div>
+        </div>
+    </div>
+    <!-- //Modal window callback -->
+    <!-- //Button callback -->
+    <div class="sticky_button">
+        <button> <!-- Атрибуты для  data-toggle="modal" data-target="#callback"-->
+            <i class="glyphicon glyphicon-earphone"></i>
+            <span>Задать вопрос</span>
+        </button>
+        <form action="callback.php" method="post" class="message_form clearfix" id="sticky_form" style='display: none;'>
+            <p>Оставьте свое сообщение в этой форме, и мы получим его на e-mail и обязательно ответим в течение 24 часов!</p>
+            <textarea name="message" cols="30" rows="10" placeholder="Ваше сообщение" required></textarea>
+            <input type="email" name='email' placeholder="Ваш e-mail" required>
+            <input type="submit" value="Продолжить">
+        </form>
+    </div>
+
+    
+    
+    <!-- //Button callback -->
+    
+<!-- Custom-JavaScript-File-Links -->
+	<!-- Supportive-JavaScript --> <script type="text/javascript" src="js/jquery.min.js"></script>
+	<!-- Necessary-JavaScript-File-For-Bootstrap --> <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+	<!-- Slideanim-JavaScript -->
+	<script type="text/javascript">
+		$(window).scroll(function() {
+	 		$(".slideanim").each(function(){
+				var pos = $(this).offset().top;
+				var winTop = $(window).scrollTop();
+					if (pos < winTop + 600) {
+					$(this).addClass("slide");
+				}
+			});
+		});
+	</script>
+	<!-- //Slideanim-JavaScript -->
+	<script type="text/javascript">
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 0;"> </span></a>
+	<!-- Smooth-Scrolling-JavaScript -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- //Smooth-Scrolling-JavaScript -->
+    <script src="js/jquery.swipebox.min.js"></script>
+	<!-- Prise-Animation-JavaScript -->
+	<script type="text/javascript" src="js/jquery.inview.min.js"></script>
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<script type="text/javascript" src="js/mousescroll.js"></script>
+	<!-- //Prise-Animation-JavaScript -->
+	<script src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+<!-- //Custom-JavaScript-File-Links -->
+
+<!-- Images are for reference and illustration puropse only. Images were taken from https://pixabay.com and icons were taken from www.flaticon.com and Portfolio section images were the sceenshots of templates by http://w3layouts.com -->
+<!-- Flaticon Links:
+	Icons made by "http://www.freepik.com" from "http://www.flaticon.com" is licensed by "http://creativecommons.org/licenses/by/3.0/" CC 3.0. BY
+-->
+
+</body>
+</html>
