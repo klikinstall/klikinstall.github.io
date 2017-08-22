@@ -112,10 +112,11 @@ $(document).ready(function() {
     // Slide-To-Top JavaScript (No-Need-To-Change)
     
     //Кнопка отправки сообщения sticky_button
+    /*
     $(".sticky_button button").click(function() {
         $("#sticky_form").slideToggle("slow");
         return false;
-    });
+    });*/
     //Кнопка отправки сообщения sticky_button
     
     //Отправка формы callback
@@ -169,5 +170,3 @@ $(document).ready(function() {
 	});
     //Отправка формы callback
 });
-
-new CBPFWTabs( document.getElementById( 'tabs' ) );

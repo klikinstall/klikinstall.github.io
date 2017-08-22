@@ -16,22 +16,10 @@
 	<!-- Swipe-Box-CSS --> <link rel="stylesheet" href="css/swipebox.css">
 	<!-- Style.CSS --> <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //Custom-Theme-Files -->
-<script>
-	$(function() {
-		$(".meter > span").each(function() {
-			$(this)
-			.data("origWidth", $(this).width())
-			.width(0)
-			.animate({
-				width: $(this).data("origWidth")
-			}, 1200);
-		});
-	});
-</script>
-<!-- Web-Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Raleway:400,500,600,700,800' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+<!-- Web-Fonts 
+	<link href='//fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet'>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800" rel="stylesheet">
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet'> -->
 <!-- //Web-Fonts -->
 </head>
 
@@ -727,11 +715,12 @@
     <!-- //Modal window callback -->
     <!-- //Button callback -->
     <div class="sticky_button">
-        <button> <!-- Атрибуты для  data-toggle="modal" data-target="#callback"-->
+        <input id="sticky" name="callback" type="checkbox" />
+        <label for="sticky">
             <i class="glyphicon glyphicon-earphone"></i>
             <span>Задать вопрос</span>
-        </button>
-        <form action="callback.php" method="post" class="message_form clearfix" id="sticky_form" style='display: none;'>
+        </label>
+        <form action="callback.php" method="post" class="message_form clearfix" id="sticky_form">
             <p>Оставьте свое сообщение в этой форме, и мы получим его на e-mail и обязательно ответим в течение 24 часов!</p>
             <textarea name="message" cols="30" rows="10" placeholder="Ваше сообщение" required></textarea>
             <input type="email" name='email' placeholder="Ваш e-mail" required>
@@ -760,8 +749,6 @@
 		});
 	</script>
 	<!-- //Slideanim-JavaScript -->
-	<script type="text/javascript">
-	</script>
 	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 0;"> </span></a>
 	<!-- Smooth-Scrolling-JavaScript -->
 	<script type="text/javascript" src="js/move-top.js"></script>

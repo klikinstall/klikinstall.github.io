@@ -1226,8 +1226,8 @@ figure.effect-bubba:hover h4 {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 92px;
+    height: 92px;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -1905,8 +1905,12 @@ textarea:-ms-input-placeholder {
     z-index: 10;
     transition: all .5s ease;
 }
-.sticky_button button {
+#sticky {
+    display: none;
+}
+.sticky_button label {
     display: block;
+    cursor: pointer;
     width: 100%;
     padding: 10px 15px;
     vertical-align: middle;
@@ -1918,7 +1922,7 @@ textarea:-ms-input-placeholder {
     box-shadow: none;
     transition: 0.5s all
 }
-.sticky_button button:hover {
+.sticky_button label:hover {
     background-color: #5E5F5F;
     color: #fff;
 }
@@ -1928,8 +1932,15 @@ textarea:-ms-input-placeholder {
     text-transform: uppercase;
 }
 .sticky_button .message_form {
-    padding: 15px 20px;
+    height: 0;
+    padding: 0;
     background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: all .5s ease;
+}
+#sticky:checked ~ .message_form {
+    height: 300px;
+    padding: 15px 20px;
 }
 .message_form p {
     margin-bottom: 20px;
@@ -2018,6 +2029,7 @@ textarea:-ms-input-placeholder {
 	border: none;
 	text-indent: 100%;
 	background: url("../images/to-top2.png") no-repeat 0px 0px;
+    z-index: 3000
 }
 /*-- //Go-To-Top-Button --*/
 /*-- //Footer-Ends-Here --*/
@@ -2476,7 +2488,6 @@ h4 a.p2 {
     }
 	ul.social-icons li a{
 		display: inline-block;
-		background: url("../images/img-sprite.png") no-repeat 0px 0px;
 		background-size: 200px;
 		
 	}
@@ -3255,7 +3266,7 @@ span.menu:before {
 	position: absolute;
 	width: 96%;
 	text-align: center;
-	top: 17%;
+	top: 68%;
 	left: 2%;
 	margin-top:1%;
 }
@@ -3960,7 +3971,13 @@ font-size: 0.9em;
 	.footer-info p {
 		line-height: 21px;
 	}
-    .sticky_button button,
+    .sticky_button {
+        max-width: 290px;
+    }
+    #sticky:checked ~ .message_form {
+        height: 277px;
+    }
+    .sticky_button label,
     .message_form p,
     .sticky_button input[type='submit'] {
         font-size: .8em;
@@ -4040,9 +4057,6 @@ font-size: 0.9em;
 	}
 	.features h2, .features h3 {
 		font-size: 15px;
-	}
-	.features-item {
-		padding: 20px 0 0px;
 	}
 	.features-info {
 		padding-left: 5px;
