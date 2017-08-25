@@ -38,8 +38,8 @@ input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    background-color: #fff;
-    color: #000;
+    background-color: transparent;
+    color: #fff;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
@@ -89,34 +89,34 @@ img {
     height: auto;
 }
 input::-webkit-input-placeholder {
-    color: #000;
+    color: #fff;
 }
 input::-moz-placeholder {
-    color: #000;
+    color: #fff;
 }  
 input:-moz-placeholder {
-    color: #000;
+    color: #fff;
 }
 input:-ms-input-placeholder {
-    color: #000;
+    color: #fff;
 }
 input:-o-input-placeholder {
-    color: #000;
+    color: #fff;
 }
 textarea::-webkit-input-placeholder {
-    color: #000;
+    color: #fff;
 }
 textarea::-moz-placeholder {
-    color: #000;
+    color: #fff;
 }  
 textarea:-moz-placeholder {
-    color: #000;
+    color: #fff;
 }
 textarea:-ms-input-placeholder {
-    color: #000;
+    color: #fff;
 }
 textarea:-o-input-placeholder {
-    color: #000;
+    color: #fff;
 }
 /*-- //Reset Code --*/
 
