@@ -28,17 +28,24 @@
 
 <body>
     <header class="clearfix">
-        <nav class="wrapper">
-            <ul>
-                <li><a href="#s_and_p">Расписание и цены</a></li>
-                <li><a href="#">О курсе</a></li>
-                <li><a href="#">Программа курса</a></li>
-                <li><a href="#">Об авторе</a></li>
-                <li><a href="#">Фото аудиторий</a></li>
-                <li><a href="#">Отзывы</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
+        <div class="nav_wrap">
+            <nav>
+                <div class="mobile_menu">
+                    <a href="#" id="pull">Menu</a>
+                    <b>Контакты</b>
+                    <p class="phone">+7 (916) 157-48-66</p>
+                </div>
+                <ul>
+                    <li><a href="#s_and_p">Расписание и цены</a></li>
+                    <li><a href="#">О курсе</a></li>
+                    <li><a href="#">Программа курса</a></li>
+                    <li><a href="#">Об авторе</a></li>
+                    <li><a href="#">Фото аудиторий</a></li>
+                    <li><a href="#">Отзывы</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
         <div class="head_contacts wrapper">
             <p class="phone">+7 (916) 157-48-66</p>
             <p class="address">г. Москва, ул. Каланчевская, д. 15</p>
@@ -52,19 +59,19 @@
             <h2>Расписание и цены</h2>
             <div class="low_price">
                 <div class="price_wrap">04 окт. 2017, 18:00 ч. — 20:00 ч.</div>
-                <p>1000<i>&#8381;</i></p>
+                <p>1 000<sub>&#8381;</sub></p>
             </div>
             <div class="mid_price">
                 <div class="price_wrap">
-                    <span>04 окт. 2017, 18:00 ч. — 20:00 ч.</span>
                     <span>11 окт. 2017, 18:00 ч. — 20:00 ч.</span>
                     <span>18 окт. 2017, 18:00 ч. — 20:00 ч.</span>
+                    <span>25 окт. 2017, 18:00 ч. — 20:00 ч.</span>
                 </div>
-                <p>3 000<i>&#8381;</i></p>
+                <p>3 000<sub>&#8381;</sub></p>
             </div>
             <div class="high_price">
                 <div class="price_wrap">Стоимость <span>4</span> занятий в октябре</div> 
-                <p>4000<i>&#8381;</i></p>
+                <p>4 000<sub>&#8381;</sub></p>
             </div>
         </div>
         <div class="header_overlay"></div>
@@ -72,18 +79,67 @@
 	<section class="s_recording">
 	    <h2>Успейте записаться, пока набор на курс открыт!</h2>
 	    <form action="#" class="clearfix">
-	        <input type="text" placeholder="Ваше имя:">
-	        <input type="tel" placeholder="Ваш телефон:">
-	        <input type="submit" value="Записаться">
+            <div class="clearfix">
+                <input type="text" placeholder="Ваше имя:">
+                <input type="tel" placeholder="Ваш телефон:">
+                <input type="submit" value="Записаться" class="button">
+            </div>
 	        <p>Вам перезвонят с 10:00 до 20:00</p>
 	    </form>
 	    <div class="timer_block">
 	        <p>До начала занятий осталось</p>
+	        <div class="timer">
+	            <div class="timer_item">
+	                <b>Месяцев</b>
+	                <div class="count">
+	                    
+	                </div>
+	            </div>
+	            <div class="timer_item">
+	                <b>Дней</b>
+	                <div class="count">
+	                    
+	                </div>
+	            </div>
+	            <div class="timer_item">
+	                <b>Часов</b>
+	                <div class="count">
+	                    
+	                </div>
+	            </div>
+	            <div class="timer_item">
+	                <b>Минут</b>
+	                <div class="count">
+	                    
+	                </div>
+	            </div>
+	        </div>
 	    </div>
 	</section>
-	<section class="">
-	    <h2></h2>
+	<section class="about">
+	    <h2>О курсе</h2>
+	    <div class="about_block wrapper">
+            <div class="about_img">
+                <img src="img/pencils.jpg" class="img-responsive" alt="">
+            </div>
+            <div class="about_text">
+                <p>
+	                <b>Целевая аудитория:</b> Ученики 9-ого класса со средним баллом по алгебре 3,5-4,5 (по 5-тибалльной шкале).
+                </p>
+	            <p>
+	                <b>Цель курса:</b> Подготовка к решению и правильному оформлению заданий второй части ОГЭ по математике (номера 21 - 26).
+                </p>
+	            <p>
+	               <b>Описание:</b> Занятия по курсу начинаются в октябре и проходят по средам с 18:00 до 20:00, в 3 минутах ходьбы от м. Красные Ворота в светлой и комфортной учебной аудитории с мягкими креслами. Основное внимание на занятиях в октябре уделяется решению уравнений и преобразованию степеней (именно эти навыки проверяются в ОГЭ в номере 21), а также корректному оформлению бланков второй части ОГЭ. Номера 22 и 23 планируется рассмотреть в ноябре и декабре, а номера 24-26 уже в 2018 году.
+                </p>
+	            <p>
+	               <b>Оплата:</b> Оплата происходит до начала занятий. Можно оплатить сразу 4 занятия в октябре (4000 рублей), либо оплатить первое занятие (1000 рублей), а затем после первого занятия оплатить оставшиеся 3 занятия (3000 рублей).
+                </p>
+                <a href="#" class="button">Записаться</a>
+            </div>
+	    </div>
 	</section>
+	<section class="program">gerger</section>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.min.css">
 	<script src="js/scripts.min.js"></script>
