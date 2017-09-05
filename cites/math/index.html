@@ -39,10 +39,10 @@
                     <li><a href="#s_and_p">Расписание и цены</a></li>
                     <li><a href="#about">О курсе</a></li>
                     <li><a href="#program">Программа курса</a></li>
-                    <li><a href="#">Об авторе</a></li>
-                    <li><a href="#">Фото аудиторий</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#author">Об авторе</a></li>
+                    <li><a href="#photos">Фото аудиторий</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -89,7 +89,7 @@
             </div>
 	        <p>Вам перезвонят с 10:00 до 20:00</p>
 	    </form>
-	    <div class="timer_block">
+	    <div class="timer_block wrapper">
 	        <p>До начала занятий осталось</p>
 	        <div class="timer">
 	            <div class="timer_item">
@@ -117,6 +117,7 @@
 	                </div>
 	            </div>
 	        </div>
+	        <div id="clockdiv"></div>
 	    </div>
 	</section>
 	<section class="about" id="about">
@@ -138,7 +139,7 @@
 	            <p>
 	               <b>Оплата:</b> Оплата происходит до начала занятий. Можно оплатить сразу 4 занятия в октябре (4000 рублей), либо оплатить первое занятие (1000 рублей), а затем после первого занятия оплатить оставшиеся 3 занятия (3000 рублей).
                 </p>
-                <a href="#" class="button">Записаться</a>
+                <a href="#openModal" class="button">Записаться</a>
             </div>
 	    </div>
 	</section>
@@ -202,7 +203,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="button">Записаться</a>
+            <a href="#openModal" class="button">Записаться</a>
 	    </div>
 	    <!-- В ПК версии скрыт -->
 	    <div class="tabs_mobile clearfix">
@@ -279,12 +280,13 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="button">Записаться</a>
+                
+                <a href="#openModal" class="button">Записаться</a>
             </div>
 	    </div>
 	    <!-- В ПК версии скрыт -->
 	</section>
-	<section class="author">
+	<section class="author" id="author">
 	    <h2>Об авторе</h2>
 	    <div class="author_content wrapper">
 	        <div class="author_img">
@@ -298,7 +300,7 @@
 	        </div>
 	    </div>
 	</section>
-	<section class="photos">
+	<section class="photos" id="photos">
 	    <h2>Фото аудиторий</h2>
 	    <div class="wrapper clearfix">
 	        <div class="owl-carousel owl-theme" id="photos_carousel">
@@ -318,10 +320,10 @@
                     <img src="img/lecture_hall_photo/room8.jpg" alt="Аудитория">
                 </div>
             </div>
-            <a href="#" class="button">Записаться</a>
+            <a href="#openModal" class="button">Записаться</a>
 	    </div>
 	</section>
-	<section class="reviews">
+	<section class="reviews" id="reviews">
 	    <h2>Отзывы</h2>
 	    <div class="wrapper">
 	        <div class="owl-carousel owl-theme" id="review_carousel">
@@ -348,26 +350,33 @@
                 </div>
                 <div class="item">
                     <div class="review_item">
-                        <b>Екатерина</b>
-                        <time datetime="2016-07-1">1 июля 2016 г.</time>
-                        <p>Занимались 7 месяцев. За время занятий сын смог подтянуть и сдать математику - и базу (на 5) и профиль намного выше чем ожидали. Пунктуальность, понятное объяснение материала, разбор сложных профильных заданий является отличным показателем работы Андрея Юрьевича плюс замечательные личные качества. Рекомендуем при подготовке к экзаменам.</p>
+                        <b>Светлана</b>
+                        <time datetime="2016-10-5">5 октября 2016 г.</time>
+                        <p>После месяца сотрудничества с Андреем у моего сына (15 лет) проснулся интерес к математике. При этом ранее интереса к чему либо кроме компьютерных игр не замечала. Андрей нашел подход к подростку уже на первой встрече, помог разобраться с провалами в знаниях. У сына улучшились оценки в школе. Но главное сын понял, что математика это интересно, это красиво и теперь ждет каждого занятия с репетитором. Андрей, несмотря на молодость, очень интересный как личность, он постоянно в развитии, разносторонний и умеет использовать эти свои сильные стороны в работе с подростком.</p>
                     </div>
                 </div>
                 <div class="item">
                     <div class="review_item">
-                        <b>Екатерина</b>
-                        <time datetime="2016-07-1">1 июля 2016 г.</time>
-                        <p>Занимались 7 месяцев. За время занятий сын смог подтянуть и сдать математику - и базу (на 5) и профиль намного выше чем ожидали. Пунктуальность, понятное объяснение материала, разбор сложных профильных заданий является отличным показателем работы Андрея Юрьевича плюс замечательные личные качества. Рекомендуем при подготовке к экзаменам.</p>
+                        <b>Надежда</b>
+                        <time datetime="2016-04-20">20 апреля 2016 г.</time>
+                        <p>Андрей Юрьевич - хороший педагог, очень грамотный, умный. Он быстро нашел взаимопонимание с ребенком, настроил его на продуктивную работу и на положительный результат на экзаменах. Репетитор хорошо объясняет материал и по математике и по информатике, он системно дает знания. Мой сын понимает его с полуслова. Никита заметно подтянулся по предметам. Я довольна его успехами.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="review_item">
+                        <b>Светлана</b>
+                        <time datetime="2016-09-30">30 сентября 2016 г.</time>
+                        <p>Замечательный преподаватель! Наш сын в восторге. Говорит, что Андрей Юрьевич объясняет математику так, что он не только её лучше понимает, но ему теперь нравится решать задачи , а главное, у него получается это делать хорошо. Очень рекомендуем!</p>
                     </div>
                 </div>
             </div>
             <div class="btn_block clearfix">
                 <p>Посмотреть все отзывы можно на сайте "Ваш Репетитор"</p>
-                <a class="button">Смотреть</a>
+                <a class="button" href='http://repetitors.info/comments.php?p=YakovlichevAU'>Смотреть</a>
             </div>
 	    </div>
 	</section>
-	<section class="contacts">
+	<section class="contacts" id="contacts">
 	    <h2>Контакты</h2>
         <div class="address wrapper">
             <div class="address_wrap">
@@ -387,9 +396,24 @@
 	<footer>
 	    <p>&#169; 2017 Все права защищены</p>
 	</footer>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
-	
+	<div class="modal" id="openModal">
+	    <div class="modal_content">
+	        <form id='callback' method="post">
+	            <b>Укажите Ваше имя и номер телефона</b>
+	            <label>
+                    Введите Ваше имя:
+	                <input type="text" name="name" placeholder="Иван Иванов">
+	            </label>
+	            <label>
+                    Ваш номер телефона:
+	                <input type="tel" name="phone" class='phone-mask' placeholder='+7 (___) ___-__-__'>
+	            </label>
+	            <input type="submit" value='Записаться'>
+	        </form>
+	        <a class='close' href='#close'>x</a>
+	    </div>
+	</div>
+	<!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">-->
 	<script src="js/scripts.min.js"></script>
-
 </body>
 </html>
