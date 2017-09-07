@@ -81,8 +81,8 @@
 	    <h2>Успейте записаться, пока набор <span>на курс</span> открыт!</h2>
 	    <form class="clearfix" id="fscreen_call">
             <div class="clearfix">
-                <input type="text" placeholder="Ваше имя:" name="name">
-                <input type="tel" placeholder="Ваш телефон:" name="phone">
+                <input type="text" placeholder="Ваше имя:" name="name" required>
+                <input type="tel" placeholder="Ваш телефон:" name="phone" required>
                 <input type="submit" value="Записаться" class="button">
             </div>
 	        <p>Вам перезвонят с 10:00 до 20:00</p>
@@ -91,31 +91,30 @@
 	        <p>До начала занятий осталось</p>
 	        <div class="timer">
 	            <div class="timer_item">
-	                <b>Месяцев</b>
-	                <div class="count">
-	                    
-	                </div>
-	            </div>
-	            <div class="timer_item">
 	                <b>Дней</b>
-	                <div class="count">
-	                    <span id='timer-v-days'></span>
+	                <div class="count count_days">
+	                    <span class="timer-item-numbers" id='timer-v-days'></span>
 	                </div>
 	            </div>
 	            <div class="timer_item">
 	                <b>Часов</b>
-	                <div class="count">
-	                    <span class="timer-item__numbers" id="timer-v-hours"></span>
+	                <div class="count count_hours">
+	                    <span class="timer-item-numbers" id="timer-v-hours"></span>
 	                </div>
 	            </div>
 	            <div class="timer_item">
 	                <b>Минут</b>
-	                <div class="count">
-	                    <span id="timer-v-minutes"></span>
+	                <div class="count count_minutes">
+	                    <span class="timer-item-numbers" id="timer-v-minutes"></span>
+	                </div>
+	            </div>
+	            <div class="timer_item">
+	                <b>Секунд</b>
+	                <div class="count count_seconds">
+	                    <span class="timer-item-numbers" id="timer-v-seconds"></span>
 	                </div>
 	            </div>
 	        </div>
-	        <div id="clockdiv"></div>
 	    </div>
 	</section>
 	<section class="about" id="about">
@@ -254,30 +253,30 @@
                 <p>До начала занятий осталось</p>
                 <div class="timer">
                     <div class="timer_item">
-                        <b>Месяцев</b>
-                        <div class="count">
-
-                        </div>
-                    </div>
-                    <div class="timer_item">
                         <b>Дней</b>
-                        <div class="count">
+                        <div class="count count_days_mob">
 
                         </div>
                     </div>
                     <div class="timer_item">
                         <b>Часов</b>
-                        <div class="count">
-
+                        <div class="count count_hours_mob">
+                            
                         </div>
                     </div>
                     <div class="timer_item">
                         <b>Минут</b>
-                        <div class="count">
-
+                        <div class="count count_minutes_mob">
+                            
                         </div>
                     </div>
-                </div>
+                    <div class="timer_item">
+                        <b>Секунд</b>
+                        <div class="count count_seconds_mob">
+                            
+                        </div>
+                    </div>
+	            </div>
                 
                 <a href="#openModal" class="button">Записаться</a>
             </div>
@@ -388,7 +387,7 @@
             </div>
         </div>
 	    <div class="map wrapper">
-	        <iframe src="https://yandex.ru/map-widget/v1/-/CBUV7UgukD" width="100%" height="100%" scroll="false" frameborder="0"></iframe>
+	        <iframe src="https://yandex.ru/map-widget/v1/-/CBUbbVh21D" scroll="false" width="100%" height="100%" frameborder="0"></iframe>
 	    </div>
 	</section>
 	<footer>
@@ -400,11 +399,11 @@
 	            <b>Укажите Ваше имя и номер телефона</b>
 	            <label>
                     Введите Ваше имя:
-	                <input type="text" name="name" placeholder="Иван Иванов">
+	                <input type="text" name="name" placeholder="Иван Иванов" required>
 	            </label>
 	            <label>
                     Ваш номер телефона:
-	                <input type="tel" name="phone" class='phone-mask' placeholder='+7 (___) ___-__-__'>
+	                <input type="tel" name="phone" class='phone-mask' placeholder='+7 (___) ___-__-__' required>
 	            </label>
 	            <input type="submit" value='Записаться'>
 	        </form>
