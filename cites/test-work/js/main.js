@@ -15,6 +15,7 @@ $( function() {
       }
     });
   })
+
 } );
 
 let amountRange = document.querySelector('#amountrange');
@@ -63,17 +64,24 @@ replenishment.addEventListener('input', (e) => {
 /* Валидация полей формы */
 
 let totalInputs = document.querySelectorAll('input[data-rule="total"]');
-console.log(totalInputs);
 for (input of totalInputs) {
   input.addEventListener('input', function() {
-    let value = this.value;
+    let value = +this.value;
 
-    if(value > 3000000) {
-      input.style.border = '1px solid red';
-    } else if(value < 1000) {
+    if(value > 3000000 || value < 1000) {
       input.style.border = '1px solid red';
     } else {
       input.style.border = '1px solid #a8acad';
     }
   });
 }
+
+let burger = document.querySelector('.navbar-burger'),
+    navMenu = document.querySelector('.navbar-menu');
+burger.addEventListener('click', () => {
+  if(navMenu.classList.contains('active')) {
+    navMenu.classList.remove('active');
+  } else {
+    navMenu.classList.add('active');
+  }
+});
